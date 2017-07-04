@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="Alex Shoucri, JavaScript, axios, Wikipedia, Viewer, Wikipedia Viewer">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wikipedia Viewer</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+	    <div class="outer-box"><h1 class="title">search wiki platform</h1></div>
+		<div id="inner-box">	
+      		<div class="hidden"><input type="text" id="user-input" placeholder="search here, or..."/></div>
+	      	<div class="outer-hi">
+	      		<div class="inner-hi"><span><br>hello!</span><p></p></div>
+	      	</div>
+      		<section id="search-icon" class="search-icon"><i class="fa fa-search fa-4x"></i></section>
+      		<div id="search"></div>
+    	</div>
+	    <div id="randomSearch" class="random hidden">
+	    	<a target ="_blank" href="https://en.wikipedia.org/wiki/Special:Random">discover something new here!</a>
+	    </div>
+	    <footer class="footer">
+		    <div>
+		    	<p>alex.shoucri.2017</p>
+		    </div>
+	    </footer>
+    </div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="script-axios.js"></script>
+</body>
+</html>
